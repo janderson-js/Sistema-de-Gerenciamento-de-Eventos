@@ -1,0 +1,243 @@
+/* General */
+*{
+    font-family: 'Roboto';
+}
+
+#body{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+    font-family: 'Roboto';
+}
+
+#header{
+    background-color: #FFF;
+    border-bottom: 1px solid #CCC;
+}
+
+#cards-container{
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+#btn-primary{
+    background-color: #F2A340;
+    border-color: #C28008;
+}
+
+#btn-primary:hover{
+    background-color: #C28008;
+    border-color: #C28008;
+}
+
+.msg {
+    background-color: #d4edda;
+    color: #155724;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+/* NavBar */
+#navbar{
+    justify-content: space-between;
+}
+
+#navbar a{
+    font-size: 14px;
+    color: #757575;
+}
+#navbar a:hover{
+    color: #F2A340;
+}
+
+/* Search Container */
+
+#search-container{
+    background-image: url('../img/plateia.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1 {
+    color: #F2A340;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+#search-container form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Events list */
+#events-container {
+    padding: 50px;
+}
+
+#events-container h2{
+    margin-bottom: 10px;
+}
+#events-container .subtitle {
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+#cards-container {
+    display: flex;
+}
+
+#events-container .card{
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: .5%;
+}
+
+#events-container img{
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-date {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.card .card-title{
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card-participants {
+    font-size: 14px;
+    color: #757575;
+}
+
+/* Event create page */
+#event-create-container{
+    padding: 30px;
+}
+
+#event-create-container label{
+    font-weight: bold;
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+/* Event-show page */
+#image-container,
+#info-container {
+    margin-top: 30px;
+}
+
+#image-container img{
+    border-radius: 10px;
+}
+
+#infor-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p {
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+}
+
+#description-container{
+    margin-top: 30px;
+}
+
+#info-container h3,
+#description-container h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info-container ion-icon{
+    font-size: 20px;
+    color: #F2A340;
+    margin-right: 5px;
+}
+
+#info-container #btn-primary{
+    margin: 20px 0;
+}
+
+#items-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#items-list li {
+    display: flex;
+}
+
+#info-container .already-joined-msg{
+    margin: 15px 0;
+    color: #004885;
+    font-weight: bold;
+    background-color: #cce5ff;
+    border: 1px solid #004885;
+    border-radius: 10px;
+    padding: 10px;
+    width: 275px;
+}
+
+/* DashBoard */
+
+.dashvoard-title-container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashvoard-events-container th{
+    width: 25%;
+}
+
+.dashboard-acao{
+    display: inline-flex;
+}
+
+.dashboard-acao .btn{
+    margin: 0 3px;
+}
+
+/* Edit page */
+.img-preview{
+    width: 100px;
+    margin-top: 20px;
+}
+
+
+/* footer */
+footer {
+    text-align: center;
+    background-color: #353E48;
+    color: #FFF;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+}
